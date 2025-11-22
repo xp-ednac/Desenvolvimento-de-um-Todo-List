@@ -1,0 +1,2 @@
+mkdir elixir_todo_list
+cd elixir_todo_listcheckpoints
