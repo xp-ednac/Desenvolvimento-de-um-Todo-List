@@ -1,0 +1,83 @@
+/* ======== Layout geral ======== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  background: #f3f6fb;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+/* ======== Container principal ======== */
+.todo-container {
+  width: 450px;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.08);
+}
+
+/* ======== Título ======== */
+.todo-title {
+  color: #0e4fc5;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* ======== Form input ======== */
+.todo-input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #c7d3ed;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.todo-input:focus {
+  border-color: #0e4fc5;
+  box-shadow: 0 0 4px rgba(14, 79, 197, 0.3);
+}
+
+/* ======== Botão ======== */
+.todo-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background: #0e4fc5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.todo-btn:hover {
+  background: #0c3fa0;
+}
+
+/* ======== Lista ======== */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #e7eaf3;
+  font-size: 16px;
+}
+
+.todo-item.checked {
+  text-decoration: line-through;
+  color: #6f7a8a;
+}
+
+/* ======== Badge status ======== */
+.todo-status {
+  padding: 4px 8px;
+  background: #0e4fc5;
+  color: white;
+  font-size: 12px;
+  border-radius: 6px;
+}
